@@ -1,0 +1,22 @@
+@import url('http://fonts.cdnfonts.com/css/comic-sans');
+
+.rainbow-comic-sans {
+    font-family: 'Comic Sans', sans-serif;
+
+    background: linear-gradient(to right, #F00 0%, #FF0 16.7%, #0F0 33%, #0FF 49.7%, #00F 66.7%, #F0F 83.3%, #F00 100%);
+    background-size: 200% auto;
+
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: rainbow-comic-sans 2s linear infinite;
+}
+
+@keyframes rainbow-comic-sans {
+    to {
+        background-position: 200% center;
+    }
+}
